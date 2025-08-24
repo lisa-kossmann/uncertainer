@@ -1,16 +1,17 @@
 Package: uncertainer
 Type: Package
-Title: Teaches to create R Package
+Title: Collection of Functions To Characterize Uncertainty
 Version: 0.1.0
-Author@R: person(given ="Lisa", family = "Kossmann",
-role = c("aut", "cre"),
-email = "kossmannlisa03@gmail.com")
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: GPL(>=3)
-Date: 2025-08-4
+Date: 2025-07-12
+Authors@R:
+  person(given = "Alexander",
+         family = "Pastukhov",
+         role = c("aut", "cre"),
+         email ="pastukhov.alexander@gmail.com",
+         comment = c(ORCID = "0000-0002-8738-8591"))
+Description: Collection of functions to characterize uncertainty.
+    Includes functions to compute percentile intervals for an emperical
+    distribution.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/lisa-kossmann/uncertainer
-BugReports: https://github.com/lisa-kossmann/uncertainer/issues
