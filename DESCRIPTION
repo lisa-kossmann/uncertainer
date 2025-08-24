@@ -2,8 +2,7 @@ Package: uncertainer
 Type: Package
 Title: Teaches to create R Package
 Version: 0.1.0
-Author: person(given ="Lisa",
-famiy = "Kossmann",
+Author: person(given ="Lisa", family = "Kossmann",
 role = c("aut", "cre"),
 email = "kossmannlisa03@gmail.com")
 Maintainer: The package maintainer <yourself@somewhere.net>
