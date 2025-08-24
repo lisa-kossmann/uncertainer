@@ -4,8 +4,8 @@ Title: Collection of Functions To Characterize Uncertainty
 Version: 0.1.0
 Date: 2025-07-12
 Authors@R:
-  person(given = "Alexander",
-         family = "Pastukhov",
+  person(given = "Lisa",
+         family = "Kossmann",
          role = c("aut", "cre"),
          email ="pastukhov.alexander@gmail.com",
          comment = c(ORCID = "0000-0002-8738-8591"))
@@ -17,7 +17,11 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Depends: 
     R (>= 2.10)
+VignetteBuilder: knitr
+URL: https://lisa-kossmann.github.io/uncertainer/
